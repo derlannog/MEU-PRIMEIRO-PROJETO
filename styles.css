@@ -1,0 +1,155 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins';
+
+
+}
+
+header {
+  margin: 47px;
+  margin-left: 47px;
+  cursor:pointer;
+  
+}
+
+.link-header {
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 43px;
+}
+
+.button-header {
+background: #6FBF44;
+border: 1px solid #4CB538;
+border-radius: 6px;
+width: 124px;
+height: 51px;
+font-weight: 500;
+color: #FFFFFF;
+cursor:pointer;
+}
+
+a:hover{
+    opacity: 0.4;
+}
+
+.button-header:active {
+    background: blue;
+}
+  
+.button-header:hover {
+    opacity: 0.4; 
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+height: 164px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    padding: 20px 0 0 0;
+}
+
+ .learn{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    border: none;
+    background: transparent;
+    cursor:pointer;
+    padding: 40px 0 0 0;
+ } 
+
+.learn:hover {
+    color: #161A49;
+    
+}
+
+section {
+display: inline-block;
+padding: 250px 0 100px 850px;
+position: absolute;
+}
+
+img {
+    display: inline-block;
+    padding: 100px 0 278px 121px;
+
+    
+}
+
+@media screen and (max-width: 900px){
+
+ section {
+    display: block;
+    padding: 0;
+    position: static;
+    text-align: center;
+
+    
+ }
+
+
+img {
+    display: block;
+    padding: 30px 0 0 40px;
+    position: static;
+    height: 300px;
+    width: auto;
+}
+   
+.link-header {
+    display: none;
+}
+  
+h1 {
+font-weight: 700;
+font-size:25px;
+text-align: center;
+width: 276px;
+height: auto;
+margin: 30px 0 0 60px;
+line-height: 40px;
+}
+
+p {font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+
+text-align: center;
+width: 304px;
+height: 165px;
+margin: auto;
+}
+
+header {
+    padding-left: 289px;   
+margin: 10px 0 0 010px;
+
+}
+
+.button-header {
+    width: 91px;
+    height: 20px;
+    font-size: 12px;
+}
+    
+}
